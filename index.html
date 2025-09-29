@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Bala Kumar</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Style/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="cube cube1">
+            <div class="cube-face front"></div>
+            <div class="cube-face back"></div>
+            <div class="cube-face right"></div>
+            <div class="cube-face left"></div>
+            <div class="cube-face top"></div>
+            <div class="cube-face bottom"></div>
+        </div>
+        <div class="cube cube2">
+            <div class="cube-face front"></div>
+            <div class="cube-face back"></div>
+            <div class="cube-face right"></div>
+            <div class="cube-face left"></div>
+            <div class="cube-face top"></div>
+            <div class="cube-face bottom"></div>
+        </div>
+        <div class="cube cube3">
+            <div class="cube-face front"></div>
+            <div class="cube-face back"></div>
+            <div class="cube-face right"></div>
+            <div class="cube-face left"></div>
+            <div class="cube-face top"></div>
+            <div class="cube-face bottom"></div>
+        </div>
+        <div class="triangle triangle1"></div>
+        <div class="triangle triangle2"></div>
+        <div class="hexagon hexagon1"></div>
+        <div class="hexagon hexagon2"></div>
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+    </div>
+
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="/Style/IMG_0148.jpeg" alt="Profile Picture" class="profile-img">
+            <h1>Bala Kumar A</h1>
+            <p>B.com Graduate / Java FullStack Developer</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item card">
+                    <h3 class="text-2xl font-bold mb-2">Payment Specialist</h3>
+                    <p class="text-lg opacity-80 mb-2">Sutherland (Amazon.com) | 2024 - 2025</p>
+                    <p class="opacity-70">Specialized in payment processing and customer support for Amazon.com. Handled payment-related queries, transactions, and account management. Ensured compliance with payment policies and resolved complex payment issues for customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card">
+                    <h3 class="text-2xl font-bold mb-2">B.com ISM (Information System Management)</h3>
+                    <p class="text-lg opacity-80 mb-2">Agurchand Manmull Jain College Meenambakkam (University of Madras) | 2021 - 2024</p>
+                    <p class="opacity-70">Specialized in Software Engineering and Web Development. Gained expertise in programming, databases, and system design.</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-2xl font-bold mb-2">High School</h3>
+                    <p class="text-lg opacity-80 mb-2">Hilton Matriculation Hr Sec School , Chennai | 2019 - 2021</p>
+                    <p class="opacity-70">Focused on Commerce and Computer Application as well on Economics and Accounts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-category">
+                <h3>Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Core Java</div>
+                    <div class="skill-item">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Database & Backend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">PostgreSQL</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>DevOps & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">CI/CD</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Operating Systems</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Windows</div>
+                    <div class="skill-item">Linux</div>
+                    <div class="skill-item">Fedora</div>
+                    <div class="skill-item">Debian</div>
+                    <div class="skill-item">Arch Linux</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests">
+        <div class="container">
+            <h2 class="section-title">Interests</h2>
+            
+            <div class="interests-grid">
+                <div class="interest-card card">
+                    <div class="interest-icon">🎮</div>
+                    <h3 class="text-2xl font-bold mb-4">Video Games</h3>
+                    <div class="interest-list">
+                        <div class="interest-item">Valorant</div>
+                        <div class="interest-item">CS:GO</div>
+                        <div class="interest-item">Minecraft</div>
+                        <div class="interest-item">GTA V</div>
+                        <div class="interest-item">The Witcher 3</div>
+                        <div class="interest-item">Cyberpunk 2077</div>
+                    </div>
+                </div>
+
+                <div class="interest-card card">
+                    <div class="interest-icon">⚽</div>
+                    <h3 class="text-2xl font-bold mb-4">Sports & Physical Activities</h3>
+                    <div class="interest-list">
+                        <div class="interest-item">Football</div>
+                        <div class="interest-item">Basketball</div>
+                        <div class="interest-item">Cricket</div>
+                        <div class="interest-item">Gym / Fitness</div>
+                        <div class="interest-item">Running</div>
+                        <div class="interest-item">Swimming</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="text-center">
+                <p class="text-xl mb-6 opacity-90">Have a project in mind? Let's work together!</p>
+                <div class="flex justify-center gap-6 flex-wrap">
+                    <a href="mailto:balaashok2004@gmail.com" class="btn">Email Me</a>
+                    <a href="https://github.com/BalaAshok3673" class="btn" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/bala-kumar24/" class="btn" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
